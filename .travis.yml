@@ -6,10 +6,10 @@ python:
   - "3.3"
   - "3.4"
 install:
- - pip install 
- - pip install Django
- - python AppIV/ProyectoIV/setup.py install
+ - sudo pip install --upgrade pip
+ - sudo pip install Django
+ - sudo python AppIV/ProyectoIV/setup.py install
 script:
  - cd /AppIV/ProyectoIV
- - python manage.py test
+ - sudo python manage.py test
 
