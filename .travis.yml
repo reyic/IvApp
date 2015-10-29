@@ -1,14 +1,14 @@
 languaje: python
 python:
- - "2.7"
+  - "2.7"
 env:
- - DJANGO_VERSION=1.8.5
+  - DJANGO_VERSION=1.8.5
 install:
- - sudo apt-get install python-dev
- - sudo pip install --upgrade pip
- - sudo pip install Django
- - sudo python AppIV/ProyectoIV/setup.py install
+  - sudo apt-get install python-dev
+  - sudo pip install --upgrade pip
+  - sudo pip install Django
+  - sudo python AppIV/ProyectoIV/setup.py install
 script:
- - cd /AppIV/ProyectoIV
- - sudo python manage.py test
+  - cd /AppIV/ProyectoIV
+  - sudo python manage.py test
 
