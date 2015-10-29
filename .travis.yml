@@ -9,6 +9,5 @@ install:
   - sudo pip install Django
   - sudo python AppIV/ProyectoIV/setup.py install
 script:
-  - cd /AppIV/ProyectoIV
   - sudo python manage.py test
 
