@@ -1,8 +1,15 @@
 languaje: python
 python:
- - "2.7"
+  - "2.6"
+  - "2.7"
+  - "3.2"
+  - "3.3"
+  - "3.4"
 install:
+ - pip install 
+ - pip install Django
  - python AppIV/ProyectoIV/setup.py install
 script:
- - python manage.py apu
+ - cd /AppIV/ProyectoIV
+ - python manage.py test
 
