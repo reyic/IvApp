@@ -1,5 +1,8 @@
 languaje: python
 python:
-before_ install:
+ - "2.7"
+install:
+ - python AppIV/ProyectoIV/setup.py install
 script:
+ - python manage.py apu
 
