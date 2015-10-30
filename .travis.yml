@@ -6,10 +6,9 @@ env:
 install:
   - sudo apt-get install python-dev
   - sudo pip install --upgrade pip
-  - sudo pip install Django
-  - sudo python setup.py install
-before_install:
-  - cd /AppIV/ProyectoIV;
+  - sudo pip install Django 
 script:
+  - cd reyic/IvApp/AppIV/ProyectoIV;
+  - sudo python setup.py install
   - sudo python manage.py test
 
