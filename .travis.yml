@@ -10,6 +10,6 @@ install:
   - sudo pip install -q wheel==0.24.0 
 script:
   #- cd AppIV/ProyectoIV
-  #- sudo python setup.py install
+  - sudo python setup.py install
   - sudo python manage.py test
 
