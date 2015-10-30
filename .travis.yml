@@ -8,7 +8,7 @@ install:
   - sudo pip install --upgrade pip
   - sudo pip install Django 
 script:
-  - cd reyic/IvApp/AppIV/ProyectoIV;
-  - sudo python setup.py install
-  - sudo python manage.py test
+  - cd AppIV/ProyectoIV
+  - python setup.py install
+  - python manage.py test
 
